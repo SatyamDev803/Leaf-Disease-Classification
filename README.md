@@ -1,8 +1,4 @@
-
-
-
-https://github.com/user-attachments/assets/a9577f2a-a51f-4325-b13d-f4f3b5938cc5 (Change this)
-
+https://github.com/user-attachments/assets/7820211a-7b9b-4b51-be26-592997f488c4 
 
 ### **Documentation for Plant Leaf Disease Classification**
 
