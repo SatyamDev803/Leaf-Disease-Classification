@@ -1,1 +1,1 @@
-# Leaf-Disease-Classification-CNN
+# Plant-Leaf-Disease-Classification-CNN
