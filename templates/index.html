@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="container my-3">
+    <h1>Upload an Image for Prediction</h1>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <div>
+            <input class="form-control form-control-lg" id="file" type="file" name="file">
+        </div>
+        <button class="btn btn-primary my-3" type="submit">Upload</button>
+    </form>
+
+    {% if prediction %}
+    <h2>Prediction: {{ prediction }}</h2>
+    <h3>Confidence: {{ confidence }}%</h3>
+    <img src="{{ img_path }}" alt="Uploaded Image" style="max-width: 300px;" class="rounded">
+    {% else %}
+    <p>No prediction made yet.</p>
+    {% endif %}
+</div>
+
+{% endblock body %}
