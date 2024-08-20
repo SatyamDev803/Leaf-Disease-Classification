@@ -72,11 +72,3 @@ def clear_cache():
 if __name__ == '__main__':
     app.run(debug=True)
     
-# my_flask_app/
-# │
-# ├── app.py
-# ├── requirements.txt
-# ├── render.yaml (optional, for advanced configurations)
-# ├── static/
-# ├── templates/
-# └── dataset/  # Folder containing your dataset, if applicable

@@ -1,1 +1,1 @@
-# Leaf-Disease-Classification-OpenCV
+# Leaf-Disease-Classification-CNN
