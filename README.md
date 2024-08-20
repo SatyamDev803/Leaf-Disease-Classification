@@ -1,4 +1,4 @@
-https://github.com/user-attachments/assets/7820211a-7b9b-4b51-be26-592997f488c4 
+https://github.com/user-attachments/assets/7820211a-7b9b-4b51-be26-592997f488c4
 
 ### **Documentation for Plant Leaf Disease Classification**
 
@@ -21,6 +21,8 @@ https://github.com/user-attachments/assets/7820211a-7b9b-4b51-be26-592997f488c4
 
 This project involved developing a web application to identify diseases on plant leaves through image classification using Convolutional Neural Networks (CNN). Utilized TensorFlow for model building, incorporating data augmentation and tf.data pipelines to enhance performance. Integrated TensorFlow Serving for efficient model inference with a Flask backend, and deployed the application on Render. The project aims to reduce agricultural losses by providing accurate and timely disease detection.
 
+For other similar Dataset refer to this 4gb [Kaggle Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
+
 ---
 
 ## Directory Structure
@@ -40,7 +42,7 @@ The project directory is organized as follows:
 ```
 
 - **`models/`**: Contains the saved model files.
-- **`plantVillage/`**: Contains the Dataset.
+- **`plantVillage/`**: Contains the [Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease) .
 - **`static/`**: Stores the static files which is requirement for flask app.
 - **`templates/`**: Contains the HTML file templates to render while execution of the flask app.
 - **`app.py`**: Flask app.py file.
